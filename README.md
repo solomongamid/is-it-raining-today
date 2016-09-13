@@ -3,7 +3,7 @@ Is it raining today?
 
 _Build a simple Weather app with PHP Symfony!_
 
-![](https://assets.materialup.com/uploads/5bda0155-ba4c-4b43-ae19-ffea11fdd6c8/weather-ui-gif.gif)
+![](weather-ui-gif.gif)
 
 ## Level 0 - Launch & Understand the app 
 
