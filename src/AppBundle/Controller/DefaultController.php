@@ -13,7 +13,7 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        $url = 'http://api.openweathermap.org/data/2.5/weather?'.$_GET['q'].'Paris&APPID=c4d64189685c30187df7546364d23e5b';
+        $url = 'http://api.openweathermap.org/data/2.5/weather?'.$_GET['q'].'&APPID=c4d64189685c30187df7546364d23e5b';
         $obj = json_decode(file_get_contents($url), true);
 
         return $this->render('default/index.html.twig', [
