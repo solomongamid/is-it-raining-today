@@ -17,7 +17,7 @@ class DefaultController extends Controller
         $obj = json_decode(file_get_contents($url), true);
 
         return $this->render('default/index.html.twig', [
-            'wind_speed' => obj['wind']['speed'],
+            'wind_speed' => $obj['wind']['speed'],
             // 'temperature': TODO
             // 'humidity': TODO
             // etc..
